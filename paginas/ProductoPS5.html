@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation 5 | Splash Store</title>
+    <link rel="icon" type="image/png" href="../recursos/LogoFinal.png">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.imgur.com/WxlyNDJ.png" alt="Splash Store">
+            <span>SPLASH STORE</span>
+        </div>
+
+        <nav class="main-nav">
+            <a href="PagPrincipal.html">Inicio</a>
+            <div class="dropdown">
+                <button class="nav-button" type="button">Productos</button>
+                <div class="dropdown-menu">
+                    <a href="PagPS.html">PlayStation</a>
+                    <a href="PagXbox.html">Xbox</a>
+                    <a href="PagNintendo.html">Nintendo</a>
+                    <a href="PagGames.html">Juegos</a>
+                    <a href="PagAcces.html">Accesorios</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="nav-button" type="button">Contactos</button>
+                <div class="dropdown-menu">
+                    <a href="#">Correo</a>
+                    <a href="#">WhatsApp</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">TikTok</a>
+                </div>
+            </div>
+            <button class="nav-button cart-button" type="button" aria-label="Abrir carrito">
+                <img class="cart-icon" src="../recursos/anadir-a-la-cesta.png" alt="Carrito"><span class="cart-count" data-cart-count>0</span>
+            </button>
+        </nav>
+    </header>
+
+    <div class="cart-overlay"></div>
+    <aside class="cart-panel" aria-hidden="true">
+        <div class="cart-header">
+            <h2>Carrito</h2>
+            <button class="cart-close" type="button" aria-label="Cerrar carrito">&times;</button>
+        </div>
+        <div class="cart-content" data-cart-panel-content></div>
+    </aside>
+
+    <main class="product-detail">
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6566/6566040_sd.jpg" alt="PlayStation 5">
+
+        <section class="product-info">
+            <h1>PlayStation 5</h1>
+            <p class="price">Bs. 6000</p>
+            <p>
+                La PlayStation 5 ofrece una experiencia de nueva generacion con tiempos de carga rapidos,
+                graficos de alta calidad y compatibilidad con juegos exclusivos de PlayStation.
+            </p>
+            <p>
+                Es ideal para quienes buscan jugar en 4K, disfrutar de controles con respuesta haptica y
+                acceder a un catalogo amplio de aventuras, deportes, accion y multijugador.
+            </p>
+
+            <ul>
+                <li>Consola PlayStation 5.</li>
+                <li>Control DualSense incluido.</li>
+                <li>Compatible con juegos fisicos y digitales.</li>
+                <li>Salida de video hasta 4K.</li>
+                <li>Almacenamiento SSD de alta velocidad.</li>
+            </ul>
+
+            <div class="product-actions">
+                <button class="detail-button" type="button" data-add-cart="1">Agregar al carrito</button>
+                <a class="detail-button secondary" href="PagPrincipal.html">Volver al inicio</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Splash Store - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="../recursos/articulos.js"></script>
+    <script src="../recursos/nav.js"></script>
+</body>
+</html>
+
+
+

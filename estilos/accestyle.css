@@ -1,0 +1,28 @@
+.hero{
+    height: 500px;
+    background:
+        linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+        url('https://img.freepik.com/premium-photo/gaming-desk-yellow-background_160097-289.jpg');
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+h2{
+    text-shadow:0 0 15px #ffffff;
+}
+
+.card:hover {
+    box-shadow:0 0 15px #ffffff;
+}
+
+.logo span {
+    color:white;
+    text-shadow:0 0 10px #ffffff, 0 0 20px #ffffff;
+    font-weight:bold;
+}
